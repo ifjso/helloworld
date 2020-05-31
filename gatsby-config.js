@@ -49,7 +49,15 @@ module.exports = {
     },
     'gatsby-plugin-netlify-cms',
     'gatsby-plugin-styled-components',
-    'gatsby-plugin-use-dark-mode'
+    'gatsby-plugin-use-dark-mode',
+    {
+      resolve: 'gatsby-plugin-web-font-loader',
+      options: {
+        google: {
+          families: ['Roboto:300,700', 'Open Sans:300,700']
+        }
+      }
+    }
 
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
