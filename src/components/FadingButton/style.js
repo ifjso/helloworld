@@ -16,6 +16,10 @@ const FadingStyledButton = styled.button`
   &:hover {
     opacity: 1;
   }
+
+  & > * {
+    color: ${({ color }) => color};
+  }
 `;
 
 export { FadingStyledButton };
