@@ -2,14 +2,14 @@ import styled from 'styled-components';
 import { Link } from 'gatsby';
 
 export const StyledHeader = styled.header`
-  background: rebeccapurple;
+  background-color: #005085;
   margin-bottom: 1.45rem;
 `;
 
 export const Container = styled.div`
   margin: 0 auto;
   max-width: 960px;
-  padding: 1.45rem 1.0875rem;
+  padding: 1rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
