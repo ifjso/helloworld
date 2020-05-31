@@ -8,15 +8,15 @@ export const GlobalStyle = createGlobalStyle`
 
   body {
     transition: background-color 0.5s ease;
-  }
 
-  body.light-mode {
-    background-color: #fff;
-    color: #000;
-  }
+    &.light-mode {
+      background-color: #fff;
+      color: #000;
+    }
 
-  body.dark-mode {
-    background-color: #1a1919;
-    color: #999;
+    &.dark-mode {
+      background-color: #1a1919;
+      color: #999;
+    }
   }
 `;
