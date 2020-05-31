@@ -6,7 +6,7 @@ export const StyledHeader = styled.header`
   margin-bottom: 1.45rem;
 `;
 
-export const Wrapper = styled.div`
+export const Container = styled.div`
   margin: 0 auto;
   max-width: 960px;
   padding: 1.45rem 1.0875rem;
@@ -17,6 +17,12 @@ export const Wrapper = styled.div`
 
 export const TitleWrapper = styled.h1`
   margin: 0;
+`;
+
+export const ButtonWrapper = styled.div`
+  display: flex;
+  justify-content: center;
+  align-items: center;
 `;
 
 export const StyledLink = styled(Link)`

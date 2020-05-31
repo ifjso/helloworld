@@ -1,16 +1,26 @@
 import PropTypes from 'prop-types';
 import React from 'react';
 import DarkModeButton from '../DarkModeButton';
-import { StyledHeader, StyledLink, TitleWrapper, Wrapper } from './style';
+import GithubButton from '../GithubButton';
+import {
+  StyledHeader,
+  StyledLink,
+  TitleWrapper,
+  ButtonWrapper,
+  Container
+} from './style';
 
 const Header = ({ siteTitle }) => (
   <StyledHeader>
-    <Wrapper>
+    <Container>
       <TitleWrapper>
         <StyledLink to="/">{siteTitle}</StyledLink>
       </TitleWrapper>
-      <DarkModeButton />
-    </Wrapper>
+      <ButtonWrapper>
+        <GithubButton size="1.8rem" />
+        <DarkModeButton size="2.2rem" />
+      </ButtonWrapper>
+    </Container>
   </StyledHeader>
 );
 
