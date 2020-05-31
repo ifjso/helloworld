@@ -28,7 +28,7 @@ const a = '123';
 new Map();
 ```
 
-```sh
+```shell
 $ cd my-blog-starter/
 $ npm start
 # open localhost:8000
