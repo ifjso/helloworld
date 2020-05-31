@@ -2,7 +2,8 @@ module.exports = {
   siteMetadata: {
     title: `JaeSeok's Hello, World!`,
     description: `Let me introduce myself.`,
-    author: 'ojsboy@hotmail.com'
+    author: 'ojsboy@hotmail.com',
+    github: 'https://github.com/ifjso'
   },
   plugins: [
     'gatsby-plugin-react-helmet',
