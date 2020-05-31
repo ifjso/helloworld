@@ -1,5 +1,6 @@
 import { createGlobalStyle } from 'styled-components';
 import { codeBlock } from './code-block-style';
+import 'normalize.css';
 
 export const GlobalStyle = createGlobalStyle`
   html {
