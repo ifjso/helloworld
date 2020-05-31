@@ -1,4 +1,5 @@
 import { createGlobalStyle } from 'styled-components';
+import { codeBlock } from './code-block-style';
 
 export const GlobalStyle = createGlobalStyle`
   html {
@@ -19,4 +20,6 @@ export const GlobalStyle = createGlobalStyle`
       color: #999;
     }
   }
+
+  ${codeBlock}
 `;
