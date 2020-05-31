@@ -27,9 +27,6 @@ const Layout = ({ children }) => {
   return (
     <>
       <GlobalStyle />
-      <Helmet title={data.site.siteMetadata.title}>
-        <html lang="ko" />
-      </Helmet>
       <Header siteTitle={data.site.siteMetadata.title} />
       <Body>
         <main>{children}</main>
