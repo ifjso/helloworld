@@ -1,11 +1,10 @@
 import React from 'react';
-import { Link, graphql } from 'gatsby';
+import { Link } from 'gatsby';
 import Image from '../components/image';
-import Head from '../components/Head';
+import 'normalize.css';
 
-const IndexPage = ({ data }) => (
+const IndexPage = () => (
   <>
-    <Head title={data.site.siteMetadata.title} />
     <h1>Hi people</h1>
     <p>Welcome to your new Gatsby site.</p>
     <p>Now go build something great.</p>
@@ -15,15 +14,5 @@ const IndexPage = ({ data }) => (
     <Link to="/page-2/">Go to page 2</Link> <br />
   </>
 );
-
-export const query = graphql`
-  query {
-    site {
-      siteMetadata {
-        title
-      }
-    }
-  }
-`;
 
 export default IndexPage;

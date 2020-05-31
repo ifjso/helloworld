@@ -11,7 +11,7 @@ import PropTypes from 'prop-types';
 import { useStaticQuery, graphql } from 'gatsby';
 import Header from '../Header';
 import Body from '../Body';
-import { GlobalStyle } from '../../theme/global';
+import { GlobalStyle } from '../../theme/global-style';
 
 const Layout = ({ children }) => {
   const data = useStaticQuery(graphql`
@@ -27,6 +27,9 @@ const Layout = ({ children }) => {
   return (
     <>
       <GlobalStyle />
+      <Helmet title={data.site.siteMetadata.title}>
+        <html lang="ko" />
+      </Helmet>
       <Header siteTitle={data.site.siteMetadata.title} />
       <Body>
         <main>{children}</main>

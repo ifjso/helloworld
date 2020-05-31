@@ -1,13 +1,10 @@
 import { createGlobalStyle } from 'styled-components';
-import { codeBlock } from './code-block';
-import { fontFamily } from './typography';
-import 'normalize.css';
+import { codeBlock } from './code-block-style';
 
 export const GlobalStyle = createGlobalStyle`
   html {
     background-color: #1a1919;
-    color: #999;
-    ${fontFamily}
+    color: #999
   }
 
   body {
