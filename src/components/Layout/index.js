@@ -11,7 +11,7 @@ import PropTypes from 'prop-types';
 import { useStaticQuery, graphql } from 'gatsby';
 import Header from '../Header';
 import Body from '../Body';
-import { GlobalStyle } from '../../theme/global-style';
+import { GlobalStyle } from '../../theme/global';
 
 const Layout = ({ children }) => {
   const data = useStaticQuery(graphql`

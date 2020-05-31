@@ -1,5 +1,5 @@
 import { createGlobalStyle } from 'styled-components';
-import { codeBlock } from './code-block-style';
+import { codeBlock } from './code-block';
 import { fontFamily } from './typography';
 import 'normalize.css';
 
