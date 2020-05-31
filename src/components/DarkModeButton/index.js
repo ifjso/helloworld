@@ -12,6 +12,7 @@ const DarkModeToggle = ({ size }) => {
       width={size}
       height={size}
       onClick={darkMode.toggle}
+      aria-label="dark mode"
     >
       {darkMode.value ? <IoIosSunny size="100%" /> : <IoIosMoon size="100%" />}
     </FadingButton>

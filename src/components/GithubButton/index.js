@@ -15,7 +15,7 @@ const GithubButton = ({ size }) => {
   `);
 
   return (
-    <FadingButton type="button" width={size} height={size}>
+    <FadingButton type="button" width={size} height={size} aria-label="github">
       <a href={data.site.siteMetadata.github}>
         <GoMarkGithub size="100%" />
       </a>
