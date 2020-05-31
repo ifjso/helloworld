@@ -20,6 +20,10 @@ const FadingStyledButton = styled.button`
   & > * {
     color: ${({ color }) => color};
   }
+
+  & + & {
+    margin-left: 0.5rem;
+  }
 `;
 
 export { FadingStyledButton };

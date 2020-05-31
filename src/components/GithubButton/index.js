@@ -3,7 +3,7 @@ import { useStaticQuery, graphql } from 'gatsby';
 import { GoMarkGithub } from 'react-icons/go';
 import FadingButton from '../FadingButton';
 
-const GithubButton = () => {
+const GithubButton = ({ size }) => {
   const data = useStaticQuery(graphql`
     query {
       site {
@@ -15,7 +15,7 @@ const GithubButton = () => {
   `);
 
   return (
-    <FadingButton type="button">
+    <FadingButton type="button" width={size} height={size}>
       <a href={data.site.siteMetadata.github}>
         <GoMarkGithub size="100%" />
       </a>

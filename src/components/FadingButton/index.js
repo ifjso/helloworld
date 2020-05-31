@@ -2,8 +2,8 @@ import React from 'react';
 import { FadingStyledButton } from './style';
 
 const FadingButton = ({
-  width = '2em',
-  height = '2em',
+  width = '2rem',
+  height = '2rem',
   color = 'white',
   children,
   ...rest

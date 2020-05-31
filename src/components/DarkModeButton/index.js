@@ -3,11 +3,16 @@ import useDarkMode from 'use-dark-mode';
 import { IoIosSunny, IoIosMoon } from 'react-icons/io';
 import FadingButton from '../FadingButton';
 
-const DarkModeToggle = () => {
+const DarkModeToggle = ({ size }) => {
   const darkMode = useDarkMode(false);
 
   return (
-    <FadingButton type="button" onClick={darkMode.toggle}>
+    <FadingButton
+      type="button"
+      width={size}
+      height={size}
+      onClick={darkMode.toggle}
+    >
       {darkMode.value ? <IoIosSunny size="100%" /> : <IoIosMoon size="100%" />}
     </FadingButton>
   );
