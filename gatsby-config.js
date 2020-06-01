@@ -50,6 +50,7 @@ module.exports = {
     'gatsby-plugin-netlify-cms',
     'gatsby-plugin-styled-components',
     'gatsby-plugin-use-dark-mode',
+    'gatsby-plugin-dark-mode',
     {
       resolve: `gatsby-plugin-prefetch-google-fonts`,
       options: {
