@@ -1,5 +1,5 @@
+import React, { useEffect, useState } from 'react';
 import PropTypes from 'prop-types';
-import React from 'react';
 import DarkModeButton from '../DarkModeButton';
 import GithubButton from '../GithubButton';
 import {
@@ -10,19 +10,29 @@ import {
   Container
 } from './style';
 
-const Header = ({ siteTitle }) => (
-  <StyledHeader>
-    <Container>
-      <TitleWrapper>
-        <StyledLink to="/">{siteTitle}</StyledLink>
-      </TitleWrapper>
-      <ButtonWrapper>
-        <GithubButton size="1.8rem" />
-        <DarkModeButton size="2.2rem" />
-      </ButtonWrapper>
-    </Container>
-  </StyledHeader>
-);
+const Header = ({ siteTitle }) => {
+  const [isClient, setIsClient] = useState(false);
+
+  useEffect(() => {
+    setIsClient(true);
+  }, []);
+
+  return (
+    <StyledHeader>
+      <Container>
+        <TitleWrapper>
+          <StyledLink to="/">{siteTitle}</StyledLink>
+        </TitleWrapper>
+        {isClient ? (
+          <ButtonWrapper>
+            <GithubButton size="1.8rem" />
+            <DarkModeButton size="2.2rem" />
+          </ButtonWrapper>
+        ) : null}
+      </Container>
+    </StyledHeader>
+  );
+};
 
 Header.propTypes = {
   siteTitle: PropTypes.string
