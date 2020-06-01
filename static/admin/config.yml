@@ -7,12 +7,11 @@ media_folder: static/assets
 public_folder: /assets
 
 collections:
-  - name: about
-    label: About
-    folder: content/about
+  - name: about-me
+    label: About Me
+    folder: contents/about-me
     create: true
     fields:
-      - { name: path, label: Path }
       - { name: data, label: Date, widget: datetime }
       - { name: body, label: Body, widget: markdown }
 
