@@ -13,12 +13,12 @@ export const GlobalStyle = createGlobalStyle`
   body {
     transition: background-color 0.5s ease;
 
-    &.light-mode {
+    &.light {
       background-color: #fff;
       color: #000;
     }
 
-    &.dark-mode {
+    &.dark {
       background-color: #1a1919;
       color: #999;
     }
