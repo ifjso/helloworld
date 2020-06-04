@@ -1,6 +1,5 @@
 import React from 'react';
-import { StyledBody } from './style';
 
-const Body = ({ children }) => <StyledBody>{children}</StyledBody>;
+const Body = ({ children }) => <div>{children}</div>;
 
 export default Body;

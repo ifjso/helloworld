@@ -3,7 +3,6 @@ import { Link } from 'gatsby';
 
 export const StyledHeader = styled.header`
   background-color: #005085;
-  margin-bottom: 1.45rem;
 `;
 
 export const Container = styled.div`
