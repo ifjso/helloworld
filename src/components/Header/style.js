@@ -2,7 +2,9 @@ import styled from 'styled-components';
 import { Link } from 'gatsby';
 
 export const StyledHeader = styled.header`
-  background-color: #005085;
+  position: fixed;
+  visibility: hidden;
+  width: 100%;
 `;
 
 export const Container = styled.div`
@@ -12,6 +14,7 @@ export const Container = styled.div`
   display: flex;
   justify-content: space-between;
   align-items: center;
+  visibility: visible;
 `;
 
 export const TitleWrapper = styled.h1`
@@ -25,6 +28,6 @@ export const ButtonWrapper = styled.div`
 `;
 
 export const StyledLink = styled(Link)`
-  color: white;
+  color: inherit;
   text-decoration: none;
 `;
