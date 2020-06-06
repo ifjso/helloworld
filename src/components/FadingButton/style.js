@@ -3,10 +3,10 @@ import styled from 'styled-components';
 const FadingStyledButton = styled.button`
   margin: 0;
   padding: 0;
-  width: ${({ width }) => width};
-  height: ${({ height }) => height};
+  width: ${({ width }) => width || '100%'};
+  height: ${({ height }) => height || '100%'};
   background-color: transparent;
-  color: ${({ color }) => color};
+  color: ${({ color }) => color || 'inherit'};
   opacity: 0.6;
   border: none;
   outline: none;
@@ -18,7 +18,7 @@ const FadingStyledButton = styled.button`
   }
 
   & > * {
-    color: ${({ color }) => color};
+    color: ${({ color }) => color || 'inherit'};
   }
 
   & + & {
