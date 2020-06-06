@@ -5,7 +5,7 @@ import 'normalize.css';
 
 export const GlobalStyle = createGlobalStyle`
   html {
-    background-color: #1a1919;
+    background-color: #141319;
     color: #999;
     ${fontFamily}
   }
@@ -19,8 +19,8 @@ export const GlobalStyle = createGlobalStyle`
     }
 
     &.dark {
-      background-color: #1a1919;
-      color: #999;
+      background-color: #141319;
+      color: rgba(255, 255, 255, 0.8);
     }
   }
 
