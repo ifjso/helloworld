@@ -1,6 +1,8 @@
 import React from 'react';
 import { useStaticQuery, graphql } from 'gatsby';
 import { Container, Wrapper } from './style';
+import LOGOS from '../../assets/logos';
+import Logo from '../Logo';
 
 const AboutMe = () => {
   const data = useStaticQuery(
@@ -26,22 +28,15 @@ const AboutMe = () => {
         <h1>{aboutMe.frontmatter.name}</h1>
         <h2>{aboutMe.frontmatter.intro}</h2>
         <div dangerouslySetInnerHTML={{ __html: aboutMe.html }} />
-        {/* <h4>{aboutMe.frontmatter.tech_stack}</h4> */}
+        {aboutMe.frontmatter.tech_stack.split(',').map(tech => (
+          <Logo title={tech} logo={LOGOS[tech]} key={tech} />
+        ))}
+
+        {/* <h3>{aboutMe.frontmatter.tech_stack}</h3> */}
       </Wrapper>
     </Container>
   );
 };
-
-// export const query = graphql`
-//   query($slug: String!) {
-//     markdownRemark(fields: { slug: { eq: $slug } }) {
-//       html
-//       frontmatter {
-//         title
-//       }
-//     }
-//   }
-// `;
 
 // ---
 // path: about-me

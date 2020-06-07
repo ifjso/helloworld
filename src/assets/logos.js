@@ -14,20 +14,20 @@ import SpringLogo from '../../static/assets/spring-logo.svg';
 import Html5Logo from '../../static/assets/html5-logo.svg';
 import Css3Logo from '../../static/assets/css3-logo.svg';
 
-export {
-  ExpressLogo,
-  GitLogo,
-  GraphqlLogo,
-  JavaLogo,
-  JavaScriptLogo,
-  JenkinsLogo,
-  JunitLogo,
-  MongodbLogo,
-  MysqlLogo,
-  NodejsLogo,
-  ReactLogo,
-  RedisLogo,
-  SpringLogo,
-  Html5Logo,
-  Css3Logo
-};
+export default Object.freeze({
+  Java: JavaLogo,
+  JavaScript: JavaScriptLogo,
+  HTML5: Html5Logo,
+  CSS3: Css3Logo,
+  SpringBoot: SpringLogo,
+  'Node.js': NodejsLogo,
+  Express: ExpressLogo,
+  React: ReactLogo,
+  GraphQL: GraphqlLogo,
+  JUnit: JunitLogo,
+  MySQL: MysqlLogo,
+  MongoDB: MongodbLogo,
+  Redis: RedisLogo,
+  Git: GitLogo,
+  Jenkins: JenkinsLogo
+});

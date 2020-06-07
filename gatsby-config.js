@@ -1,13 +1,13 @@
 module.exports = {
   siteMetadata: {
     title: `JaeSeok's Hello, World!`,
-    description: `Let me introduce myself.`,
+    description: 'Let me introduce myself.',
     author: 'ojsboy@hotmail.com',
     github: 'https://github.com/ifjso'
   },
   plugins: [
     {
-      resolve: `gatsby-plugin-layout`,
+      resolve: 'gatsby-plugin-layout',
       options: {
         component: require.resolve('./src/components/Layout')
       }
@@ -66,16 +66,16 @@ module.exports = {
     'gatsby-plugin-styled-components',
     'gatsby-plugin-dark-mode',
     {
-      resolve: `gatsby-plugin-prefetch-google-fonts`,
+      resolve: 'gatsby-plugin-prefetch-google-fonts',
       options: {
         fonts: [
           {
-            family: `Roboto`,
-            variants: [`300`, `700`]
+            family: 'Roboto',
+            variants: ['300', '700']
           },
           {
-            family: `Open Sans`,
-            variants: [`400`, `700`]
+            family: 'Open Sans',
+            variants: ['400', '700']
           }
         ]
       }
