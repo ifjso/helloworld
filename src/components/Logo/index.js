@@ -1,10 +1,12 @@
 import React from 'react';
-import { Container, LogoWrapper } from './style';
+import { Container, LogoWrapper, LogoTitle } from './style';
 
 const Logo = ({ title, logo, width, height }) => (
   <Container width={width}>
-    <LogoWrapper height={height}>{React.createElement(logo)}</LogoWrapper>
-    <span>{title}</span>
+    <LogoWrapper height={height}>
+      {logo && React.createElement(logo)}
+    </LogoWrapper>
+    <LogoTitle>{title}</LogoTitle>
   </Container>
 );
 

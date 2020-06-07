@@ -18,7 +18,7 @@ export const Wrapper = styled.div`
 
   h1 {
     margin: 0;
-    padding-bottom: 0.4rem;
+    padding-bottom: 1rem;
     font-size: 2.8em;
     font-weight: 400;
   }
@@ -32,8 +32,19 @@ export const Wrapper = styled.div`
 
   p {
     margin: 0;
+    padding-bottom: 2rem;
     font-size: 1.3em;
     line-height: 1.8;
     list-style-type: none;
+  }
+`;
+
+export const LogoWrapper = styled.div`
+  display: flex;
+  flex-wrap: wrap;
+
+  & > * {
+    margin-right: 0.6rem;
+    margin-bottom: 0.8rem;
   }
 `;
