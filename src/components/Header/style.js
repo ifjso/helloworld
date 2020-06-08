@@ -5,6 +5,7 @@ export const StyledHeader = styled.header`
   position: fixed;
   width: 100%;
   background-color: var(--backgroundColor);
+  transition: background-color 0.5s ease;
 `;
 
 export const Container = styled.div`
