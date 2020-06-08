@@ -3,8 +3,8 @@ import { Link } from 'gatsby';
 
 export const StyledHeader = styled.header`
   position: fixed;
-  visibility: hidden;
   width: 100%;
+  background-color: var(--backgroundColor);
 `;
 
 export const Container = styled.div`
@@ -14,7 +14,6 @@ export const Container = styled.div`
   display: flex;
   justify-content: space-between;
   align-items: center;
-  visibility: visible;
 `;
 
 export const TitleWrapper = styled.h1`

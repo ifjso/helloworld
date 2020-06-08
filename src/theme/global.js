@@ -12,15 +12,17 @@ export const GlobalStyle = createGlobalStyle`
 
   body {
     transition: background-color 0.5s ease;
+    background-color: var(--backgroundColor);
+    color: var(--color);
 
     &.light {
-      background-color: #fff;
-      color: #000;
+      --backgroundColor: #fff;
+      --color: #000;
     }
 
     &.dark {
-      background-color: #141319;
-      color: rgba(255, 255, 255, 0.8);
+      --backgroundColor: #141319;
+      --color: rgba(255, 255, 255, 0.8);
     }
   }
 
