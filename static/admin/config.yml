@@ -13,7 +13,13 @@ collections:
     create: true
     fields:
       - { name: path, label: Path }
-      - { name: type, label: Type }
+      - {
+          name: type,
+          label: Type,
+          widget: select,
+          options: ['about-me', 'work-experience'],
+          default: 'about-me',
+        }
       - { name: date, label: Date, widget: datetime }
       - { name: name, label: Name }
       - { name: intro, label: Introduction }
@@ -26,12 +32,27 @@ collections:
     create: true
     fields:
       - { name: path, label: Path }
-      - { name: type, label: Type }
+      - {
+          name: type,
+          label: Type,
+          widget: select,
+          options: ['about-me', 'work-experience'],
+          default: 'work-experience',
+        }
       - { name: date, label: Date, widget: datetime }
       - { name: name, label: Name }
       - { name: description, label: Description }
       - { name: company, label: Company }
       - { name: position, label: Position }
+      - {
+          name: task,
+          label: Task,
+          widget: select,
+          options: ['백엔드', '프론트엔드'],
+          default: '백엔드',
+        }
+      - { name: start-date, label: Start Date, widget: date, format: 'YYYY.MM' }
+      - { name: end-date, label: End Date, widget: date, format: 'YYYY.MM' }
       - { name: period, label: Period }
       - { name: tech-stack, label: Tech Stack }
       - { name: body, label: Body, widget: markdown }
