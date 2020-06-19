@@ -1,7 +1,7 @@
 import { css } from 'styled-components';
 
 export const FontFamily = css`
-  font-family: Roboto;
+  font-family: Roboto, 'Open Sans';
 `;
 
 export const FontWeight = css`

@@ -29,7 +29,6 @@ export const LogoWrapper = styled.div`
 `;
 
 export const LogoTitle = styled.span`
-  font-family: Open Sans;
   font-size: 0.9em;
   line-height: 1;
 `;
