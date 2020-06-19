@@ -1,6 +1,7 @@
 import React from 'react';
 import { useStaticQuery, graphql } from 'gatsby';
 import Timeline from '../Timeline';
+import Logos from '../../assets/logos';
 import { Container } from './style';
 
 const WorkExperience = () => {
@@ -46,8 +47,8 @@ const WorkExperience = () => {
 
     return {
       id: node.id,
+      icon: Logos[baseTech],
       date: `${startedAt} ~ ${endedAt}`,
-      icon: baseTech,
       tags: techStack.split(',').map((tech, i) => ({ id: i, name: tech })),
       title: name,
       subtitle: `${company} - ${position} / ${task}`,

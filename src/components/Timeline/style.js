@@ -1,21 +1,28 @@
 import styled from 'styled-components';
 
 export const Wrapper = styled.div`
-  .base-icon {
-    background: var(--jet);
+  .vertical-timeline {
+    width: inherit;
 
-    ::after {
-      content: '';
-      width: 100%;
-      height: 100%;
-      display: block;
-      background: no-repeat center/50%
-        ${({ baseIconUrl }) => `url(${baseIconUrl})`};
+    ::before {
+      background-color: var(--dark-gray);
     }
   }
 
-  .vertical-timeline {
-    width: inherit;
+  .icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--white-smoke);
+    box-shadow: 0 0 0 4px var(--dark-gray);
+
+    svg {
+      width: 70%;
+      height: 70%;
+      left: 0;
+      top: 0;
+      margin: 0;
+    }
   }
 
   .content {
