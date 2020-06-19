@@ -1,25 +1,38 @@
 import styled from 'styled-components';
 
 export const Wrapper = styled.div`
-  .tech-icon {
-    background: var(--jet);
+  .vertical-timeline {
+    width: inherit;
 
-    ::after {
-      content: '';
-      width: 100%;
-      height: 100%;
-      display: block;
-      background: no-repeat center/50% url('./assets/css3-logo.svg');
+    ::before {
+      background-color: var(--dark-gray);
     }
   }
 
-  .vertical-timeline {
-    width: inherit;
+  .icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--white-smoke);
+    box-shadow: 0 0 0 4px var(--dark-gray);
+
+    svg {
+      width: 70%;
+      height: 70%;
+      left: 0;
+      top: 0;
+      margin: 0;
+    }
   }
 
   .content {
     --background-color: ${({ backgroundColor }) =>
       backgroundColor || 'var(--jet)'};
+
+    .vertical-timeline-element-title {
+      font-size: 1.5em;
+      margin-bottom: 8px;
+    }
 
     .vertical-timeline-element-content {
       background-color: var(--background-color);
@@ -29,6 +42,11 @@ export const Wrapper = styled.div`
 
     .vertical-timeline-element-content-arrow {
       border-right: 7px solid var(--background-color);
+    }
+
+    p {
+      line-height: 1.4;
+      font-weight: var(--light);
     }
   }
 `;

@@ -5,32 +5,32 @@ import Logos from '../../assets/logos';
 import Logo from '../Logo';
 
 const AboutMe = () => {
-  const data = useStaticQuery(
+  const { markdownRemark: aboutMe } = useStaticQuery(
     graphql`
-      query MarkdownRemark {
+      query GetAboutMe {
         markdownRemark(fields: { type: { eq: "about-me" } }) {
           html
           frontmatter {
             name
             intro
-            tech_stack
+            techStack: tech_stack
           }
         }
       }
     `
   );
 
-  const aboutMe = data.markdownRemark;
+  const { name, intro, techStack } = aboutMe.frontmatter;
 
   return (
     <Container>
       <Wrapper>
-        <h1>{aboutMe.frontmatter.name}</h1>
-        <h2>{aboutMe.frontmatter.intro}</h2>
+        <h1>{name}</h1>
+        <h2>{intro}</h2>
         <div dangerouslySetInnerHTML={{ __html: aboutMe.html }} />
 
         <LogoWrapper>
-          {aboutMe.frontmatter.tech_stack.split(',').map(tech => (
+          {techStack.split(',').map(tech => (
             <Logo key={tech} title={tech} logo={Logos[tech]} />
           ))}
         </LogoWrapper>

@@ -8,6 +8,7 @@ export const StyledHeader = styled.header`
   width: 100%;
   background-color: var(--background-color);
   transition: background-color 0.5s ease;
+  z-index: 10;
 `;
 
 export const Container = styled.div`
