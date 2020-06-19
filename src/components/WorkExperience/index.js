@@ -2,7 +2,7 @@ import React from 'react';
 import { useStaticQuery, graphql } from 'gatsby';
 import Timeline from '../Timeline';
 import Logos from '../../assets/logos';
-import { Container } from './style';
+import { Container, Title } from './style';
 
 const WorkExperience = () => {
   const {
@@ -60,6 +60,7 @@ const WorkExperience = () => {
 
   return (
     <Container>
+      <Title>Work Experience</Title>
       <Timeline elements={elements} />
     </Container>
   );
