@@ -1,7 +1,7 @@
 import React from 'react';
 import { useStaticQuery, graphql } from 'gatsby';
 import { Container, Wrapper, LogoWrapper } from './style';
-import LOGOS from '../../assets/logos';
+import Logos from '../../assets/logos';
 import Logo from '../Logo';
 
 const AboutMe = () => {
@@ -31,7 +31,7 @@ const AboutMe = () => {
 
         <LogoWrapper>
           {aboutMe.frontmatter.tech_stack.split(',').map(tech => (
-            <Logo key={tech} title={tech} logo={LOGOS[tech]} />
+            <Logo key={tech} title={tech} logo={Logos[tech]} />
           ))}
         </LogoWrapper>
       </Wrapper>

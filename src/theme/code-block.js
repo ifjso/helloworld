@@ -2,9 +2,9 @@ import { css } from 'styled-components';
 import 'prismjs/themes/prism-tomorrow.css';
 import 'prismjs/plugins/command-line/prism-command-line.css';
 
-export const codeBlock = css`
+export const CodeBlock = css`
   .gatsby-highlight-code-line {
-    background-color: #7b0f09;
+    background-color: var(--deep-red);
     display: block;
     margin-right: -1em;
     margin-left: -1em;

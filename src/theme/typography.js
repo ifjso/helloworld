@@ -1,5 +1,5 @@
 import { css } from 'styled-components';
 
-export const fontFamily = css`
+export const FontFamily = css`
   font-family: Roboto;
 `;

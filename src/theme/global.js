@@ -1,15 +1,18 @@
 import { createGlobalStyle } from 'styled-components';
-import { codeBlock } from './code-block';
-import { fontFamily } from './typography';
+import { Colors } from './colors';
+import { CodeBlock } from './code-block';
+import { FontFamily } from './typography';
 import 'normalize.css';
 
 export const Media = Object.freeze({ BASE: '1170px' });
 
 export const GlobalStyle = createGlobalStyle`
+
   html {
-    background-color: #141319;
-    color: #999;
-    ${fontFamily}
+    background-color: var(--black-russian);
+    color: var(--light-gray);
+    ${FontFamily}
+    ${Colors}
   }
 
   body {
@@ -18,15 +21,15 @@ export const GlobalStyle = createGlobalStyle`
     color: var(--color);
 
     &.light {
-      --background-color: #fff;
-      --color: #000;
+      --background-color: var(--white);
+      --color: var(--black);
     }
 
     &.dark {
-      --background-color: #141319;
-      --color: rgba(255, 255, 255, 0.8);
+      --background-color: var(--black-russian);
+      --color: var(--light-gray);
     }
   }
 
-  ${codeBlock}
+  ${CodeBlock}
 `;
