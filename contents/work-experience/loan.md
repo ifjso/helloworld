@@ -1,4 +1,5 @@
 ---
+path: loan
 type: work-experience
 date: 2020-06-01T15:33:49.700Z
 name: 대출 추천 서비스 개발

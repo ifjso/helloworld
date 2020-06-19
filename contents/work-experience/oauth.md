@@ -1,4 +1,5 @@
 ---
+path: oauth
 type: work-experience
 date: 2020-06-01T15:33:49.700Z
 name: OAuth 2.0 인증 서비스 개발

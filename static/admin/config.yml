@@ -12,6 +12,7 @@ collections:
     folder: contents/about-me
     create: true
     fields:
+      - { name: path, label: Path }
       - { name: type, label: Type }
       - { name: date, label: Date, widget: datetime }
       - { name: name, label: Name }
@@ -24,6 +25,7 @@ collections:
     folder: contents/work-experience
     create: true
     fields:
+      - { name: path, label: Path }
       - { name: type, label: Type }
       - { name: date, label: Date, widget: datetime }
       - { name: name, label: Name }

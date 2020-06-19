@@ -1,4 +1,5 @@
 ---
+path: about-me
 type: about-me
 date: 2020-06-01T15:33:49.700Z
 name: 오재석
