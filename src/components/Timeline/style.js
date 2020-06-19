@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 export const Wrapper = styled.div`
-  .tech-icon {
+  .base-icon {
     background: var(--jet);
 
     ::after {
@@ -9,7 +9,8 @@ export const Wrapper = styled.div`
       width: 100%;
       height: 100%;
       display: block;
-      background: no-repeat center/50% url('./assets/css3-logo.svg');
+      background: no-repeat center/50%
+        ${({ baseIconUrl }) => `url(${baseIconUrl})`};
     }
   }
 

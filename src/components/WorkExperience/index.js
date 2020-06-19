@@ -10,7 +10,7 @@ const WorkExperience = () => {
     query GetWorkExperience {
       allMarkdownRemark(
         filter: { fields: { type: { eq: "work-experience" } } }
-        sort: { fields: frontmatter___start_date, order: DESC }
+        sort: { fields: frontmatter___started_at, order: DESC }
       ) {
         edges {
           node {
@@ -21,8 +21,9 @@ const WorkExperience = () => {
               company
               position
               task
-              startDate: start_date
-              endDate: end_date
+              startedAt: started_at
+              endedAt: ended_at
+              baseTech: base_tech
               techStack: tech_stack
             }
           }
@@ -31,25 +32,30 @@ const WorkExperience = () => {
     }
   `);
 
-  const elements = listOfWorkExperience.map(({ node }) => {
+  const mapWorkExperienceToTimelineElement = ({ node }) => {
     const {
       name,
       company,
       position,
       task,
-      startDate,
-      endDate,
+      startedAt,
+      endedAt,
+      baseTech,
       techStack
     } = node.frontmatter;
+
     return {
       id: node.id,
-      date: `${startDate} ~ ${endDate}`,
+      date: `${startedAt} ~ ${endedAt}`,
+      icon: baseTech,
       tags: techStack.split(',').map((tech, i) => ({ id: i, name: tech })),
       title: name,
       subtitle: `${company} - ${position} / ${task}`,
       details: node.html
     };
-  });
+  };
+
+  const elements = listOfWorkExperience.map(mapWorkExperienceToTimelineElement);
 
   return (
     <Container>

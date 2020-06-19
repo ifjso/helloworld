@@ -7,7 +7,7 @@ import 'react-vertical-timeline-component/style.min.css';
 import { Wrapper, TagList, Tag } from './style';
 
 const Timeline = ({ elements }) => (
-  <Wrapper>
+  <Wrapper baseIconUrl={elements.baseIconUrl}>
     <VerticalTimeline>
       {elements &&
         elements.map(element => (
@@ -15,7 +15,7 @@ const Timeline = ({ elements }) => (
             key={element.id}
             className="content"
             date={element.date}
-            iconClassName="tech-icon"
+            iconClassName="base-icon"
           >
             {element.tags && (
               <TagList>
