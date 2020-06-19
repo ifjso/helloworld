@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 export const Container = styled.section`
-  min-height: 100vh;
+  min-height: 100%;
   box-sizing: border-box;
   display: flex;
   justify-content: center;
@@ -11,6 +11,7 @@ export const Container = styled.section`
 export const Wrapper = styled.div`
   max-width: 960px;
   width: 100%;
+  min-height: 900px;
   box-sizing: inherit;
   display: flex;
   flex-direction: column;
