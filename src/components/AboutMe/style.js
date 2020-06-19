@@ -4,6 +4,7 @@ import { Media } from '../../theme/global';
 export const Container = styled.section`
   min-height: 100%;
   box-sizing: border-box;
+  margin: 0 1rem;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -12,7 +13,7 @@ export const Container = styled.section`
 export const Wrapper = styled.div`
   max-width: ${Media.BASE};
   width: 100%;
-  min-height: 900px;
+  min-height: 800px;
   box-sizing: inherit;
   display: flex;
   flex-direction: column;
