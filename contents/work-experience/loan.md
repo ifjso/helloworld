@@ -1,5 +1,6 @@
 ---
-path: work-experience
+path: loan
+type: work-experience
 date: 2020-06-01T15:33:49.700Z
 name: 대출 추천 서비스 개발
 description: 복수 금융기관의 대출 금리 및 한도를 한 번에 조회하고 간편하게 신청하는 서비스

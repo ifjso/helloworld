@@ -8,7 +8,7 @@ const AboutMe = () => {
   const data = useStaticQuery(
     graphql`
       query MarkdownRemark {
-        markdownRemark(fields: { slug: { eq: "/about-me/" } }) {
+        markdownRemark(fields: { type: { eq: "about-me" } }) {
           html
           frontmatter {
             name
