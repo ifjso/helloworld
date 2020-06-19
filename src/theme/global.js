@@ -3,6 +3,8 @@ import { codeBlock } from './code-block';
 import { fontFamily } from './typography';
 import 'normalize.css';
 
+export const Media = Object.freeze({ BASE: '1170px' });
+
 export const GlobalStyle = createGlobalStyle`
   html {
     background-color: #141319;
@@ -12,16 +14,16 @@ export const GlobalStyle = createGlobalStyle`
 
   body {
     transition: background-color 0.5s ease;
-    background-color: var(--backgroundColor);
+    background-color: var(--background-color);
     color: var(--color);
 
     &.light {
-      --backgroundColor: #fff;
+      --background-color: #fff;
       --color: #000;
     }
 
     &.dark {
-      --backgroundColor: #141319;
+      --background-color: #141319;
       --color: rgba(255, 255, 255, 0.8);
     }
   }

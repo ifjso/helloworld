@@ -1,17 +1,18 @@
 import styled from 'styled-components';
 import { Link } from 'gatsby';
+import { Media } from '../../theme/global';
 
 export const StyledHeader = styled.header`
   position: sticky;
   top: 0;
   width: 100%;
-  background-color: var(--backgroundColor);
+  background-color: var(--background-color);
   transition: background-color 0.5s ease;
 `;
 
 export const Container = styled.div`
   margin: 0 auto;
-  max-width: 960px;
+  max-width: ${Media.BASE};
   padding: 1rem;
   display: flex;
   justify-content: space-between;

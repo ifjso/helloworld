@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+import { Media } from '../../theme/global';
 
 export const Container = styled.section`
   min-height: 100%;
@@ -9,7 +10,7 @@ export const Container = styled.section`
 `;
 
 export const Wrapper = styled.div`
-  max-width: 960px;
+  max-width: ${Media.BASE};
   width: 100%;
   min-height: 900px;
   box-sizing: inherit;
