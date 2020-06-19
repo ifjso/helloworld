@@ -19,6 +19,21 @@ collections:
       - { name: tech-stack, label: Tech Stack }
       - { name: body, label: Body, widget: markdown }
 
+  - name: work-experience
+    label: Work Experience
+    folder: contents/experience
+    create: true
+    fields:
+      - { name: path, label: Path }
+      - { name: date, label: Date, widget: datetime }
+      - { name: name, label: Name }
+      - { name: description, label: Description }
+      - { name: company, label: Company }
+      - { name: position, label: Position }
+      - { name: period, label: Period }
+      - { name: tech-stack, label: Tech Stack }
+      - { name: body, label: Body, widget: markdown }
+
   - name: blog
     label: Blog
     folder: contents/blog
