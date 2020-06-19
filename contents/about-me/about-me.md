@@ -1,5 +1,5 @@
 ---
-path: about-me
+type: about-me
 date: 2020-06-01T15:33:49.700Z
 name: 오재석
 intro: 클린코드를 지향하는 백엔드 개발자, 경력 약 5년 6개월

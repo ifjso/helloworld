@@ -12,7 +12,7 @@ collections:
     folder: contents/about-me
     create: true
     fields:
-      - { name: path, label: Path }
+      - { name: type, label: Type }
       - { name: date, label: Date, widget: datetime }
       - { name: name, label: Name }
       - { name: intro, label: Introduction }
@@ -21,10 +21,10 @@ collections:
 
   - name: work-experience
     label: Work Experience
-    folder: contents/experience
+    folder: contents/work-experience
     create: true
     fields:
-      - { name: path, label: Path }
+      - { name: type, label: Type }
       - { name: date, label: Date, widget: datetime }
       - { name: name, label: Name }
       - { name: description, label: Description }
@@ -32,14 +32,4 @@ collections:
       - { name: position, label: Position }
       - { name: period, label: Period }
       - { name: tech-stack, label: Tech Stack }
-      - { name: body, label: Body, widget: markdown }
-
-  - name: blog
-    label: Blog
-    folder: contents/blog
-    create: true
-    fields:
-      - { name: path, label: Path }
-      - { name: date, label: Date, widget: datetime }
-      - { name: title, label: Title }
       - { name: body, label: Body, widget: markdown }

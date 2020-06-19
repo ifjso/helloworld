@@ -1,5 +1,5 @@
 ---
-path: work-experience
+type: work-experience
 date: 2020-06-01T15:33:49.700Z
 name: OAuth 2.0 인증 서비스 개발
 description: OAuth 2.0 표준 프로토콜을 이용하여 사용자 인증을 제공하는 서비스
