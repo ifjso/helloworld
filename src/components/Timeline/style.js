@@ -21,6 +21,11 @@ export const Wrapper = styled.div`
     --background-color: ${({ backgroundColor }) =>
       backgroundColor || 'var(--jet)'};
 
+    .vertical-timeline-element-title {
+      font-size: 1.5em;
+      margin-bottom: 8px;
+    }
+
     .vertical-timeline-element-content {
       background-color: var(--background-color);
       color: inherit;
@@ -29,6 +34,11 @@ export const Wrapper = styled.div`
 
     .vertical-timeline-element-content-arrow {
       border-right: 7px solid var(--background-color);
+    }
+
+    p {
+      line-height: 1.4;
+      font-weight: var(--light);
     }
   }
 `;

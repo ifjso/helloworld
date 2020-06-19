@@ -6,9 +6,8 @@ name: OAuth 2.0 인증 서비스 개발
 company: 고위드 (브로콜리 - 개인 자산관리 앱)
 position: 혁신개발유닛 / 매니저
 task: 백엔드
-start-date: 2019.10
-end-date: 2019.11
-period: 2019.10 - 2019.11
+start-date: '2019.10'
+end-date: '2019.11'
 tech-stack: JavaScript,Node.js,Express,Sequelize,ioredis,MySQL,Redis
 ---
 

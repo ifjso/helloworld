@@ -29,7 +29,7 @@ const Timeline = ({ elements }) => (
             <h4 className="vertical-timeline-element-subtitle">
               {element.subtitle}
             </h4>
-            <div dangerouslySetInnerHTML={element.details} />
+            <div dangerouslySetInnerHTML={{ __html: element.details }} />
           </VerticalTimelineElement>
         ))}
     </VerticalTimeline>
