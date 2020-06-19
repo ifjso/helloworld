@@ -13,7 +13,13 @@ collections:
     create: true
     fields:
       - { name: path, label: Path }
-      - { name: type, label: Type }
+      - {
+          name: type,
+          label: Type,
+          widget: select,
+          options: ['about-me', 'work-experience'],
+          default: 'about-me',
+        }
       - { name: date, label: Date, widget: datetime }
       - { name: name, label: Name }
       - { name: intro, label: Introduction }
@@ -26,7 +32,13 @@ collections:
     create: true
     fields:
       - { name: path, label: Path }
-      - { name: type, label: Type }
+      - {
+          name: type,
+          label: Type,
+          widget: select,
+          options: ['about-me', 'work-experience'],
+          default: 'work-experience',
+        }
       - { name: date, label: Date, widget: datetime }
       - { name: name, label: Name }
       - { name: description, label: Description }
