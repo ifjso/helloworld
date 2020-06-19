@@ -1,7 +1,7 @@
 ---
 path: loan
 type: work-experience
-date: 2020-06-01T15:33:49.700Z
+date: 2020-06-19T08:32:05.701Z
 name: 대출 추천 서비스 개발
 company: 고위드 (브로콜리 - 개인 자산관리 앱)
 position: 혁신개발유닛 / 매니저
