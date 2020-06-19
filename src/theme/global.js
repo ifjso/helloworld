@@ -1,7 +1,7 @@
 import { createGlobalStyle } from 'styled-components';
 import { Colors } from './colors';
 import { CodeBlock } from './code-block';
-import { FontFamily } from './typography';
+import { FontFamily, FontWeight } from './typography';
 import 'normalize.css';
 
 export const Media = Object.freeze({ BASE: '1170px' });
@@ -12,6 +12,7 @@ export const GlobalStyle = createGlobalStyle`
     background-color: var(--black-russian);
     color: var(--light-gray);
     ${FontFamily}
+    ${FontWeight}
     ${Colors}
   }
 

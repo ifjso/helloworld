@@ -22,14 +22,14 @@ export const Wrapper = styled.div`
     margin: 0;
     padding-bottom: 1rem;
     font-size: 2.8em;
-    font-weight: 400;
+    font-weight: var(--normal);
   }
 
   h2 {
     margin: 0;
     padding-bottom: 2rem;
     font-size: 1.8em;
-    font-weight: 400;
+    font-weight: var(--normal);
   }
 
   p {
