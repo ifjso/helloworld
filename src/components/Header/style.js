@@ -2,7 +2,8 @@ import styled from 'styled-components';
 import { Link } from 'gatsby';
 
 export const StyledHeader = styled.header`
-  position: fixed;
+  position: sticky;
+  top: 0;
   width: 100%;
   background-color: var(--backgroundColor);
   transition: background-color 0.5s ease;
