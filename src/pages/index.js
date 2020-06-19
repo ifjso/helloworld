@@ -3,13 +3,13 @@ import { Link, graphql } from 'gatsby';
 import Image from '../components/image';
 import Head from '../components/Head';
 import AboutMe from '../components/AboutMe';
-import Timeline from '../components/Timeline';
+import WorkExperience from '../components/WorkExperience';
 
 const IndexPage = ({ data }) => (
   <>
     <Head title={data.site.siteMetadata.title} />
     <AboutMe />
-    <Timeline />
+    <WorkExperience />
     {/* <h1>Hi people</h1>
     <p>Welcome to your new Gatsby site.</p>
     <p>Now go build something great.</p>
