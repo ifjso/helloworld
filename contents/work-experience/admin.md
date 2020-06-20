@@ -6,7 +6,7 @@ name: 관리자 콘솔 개발
 company: 고위드 (브로콜리 - 개인 자산관리 앱)
 position: 혁신개발유닛 / 매니저
 task: 백엔드
-started-at: "2017.06"
+started-at: "1496242800000"
 ended-at: "2019.07"
 base-tech: SpringBoot
 tech-stack: Java8,JavaScript,SpringBoot,MyBatis,Maven,Atomikos,AmazonS3,MySQL,MongoDB,JSP
