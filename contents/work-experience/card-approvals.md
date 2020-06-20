@@ -6,8 +6,8 @@ name: 카드 소비 내역 조회 기능 개선
 company: 고위드 (브로콜리 - 개인 자산관리 앱)
 position: 혁신개발유닛 / 매니저
 task: 백엔드
-started-at: "2019.09"
-ended-at: "2019.10"
+started-at: 2019-08-31T15:00:00.000Z
+ended-at: 2019-09-30T15:00:00.000Z
 base-tech: SpringBoot
 tech-stack: Java8,SpringBoot,JUnit,MyBatis,Maven,React,Redux,Redux-Saga,MySQL,AWS
 ---
