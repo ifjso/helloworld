@@ -50,8 +50,8 @@ collections:
           options: ['백엔드', '프론트엔드'],
           default: '백엔드',
         }
-      - { name: started_at, label: Started At, widget: date }
-      - { name: ended_at, label: Ended At, widget: date }
+      - { name: started_at, label: Started At, widget: date, format: 'YYYY.MM' }
+      - { name: ended_at, label: Ended At, widget: date, format: 'YYYY.MM' }
       - {
           name: base_tech,
           label: Base Tech,

@@ -6,8 +6,8 @@ name: 대출 추천 서비스 개발
 company: 고위드 (브로콜리 - 개인 자산관리 앱)
 position: 혁신개발유닛 / 매니저
 task: 백엔드
-started_at: 2019-10-31T15:00:00.000Z
-ended_at: 2020-01-31T15:00:00.000Z
+started_at: '2019.11'
+ended_at: '2020.02'
 base_tech: Node.js
 tech_stack: JavaScript,Node.js,Express,GraphQL,Mongoose,MongoDB,Adjust,Braze,Sentry
 ---

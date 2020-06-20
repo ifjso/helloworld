@@ -22,8 +22,8 @@ const WorkExperience = () => {
               company
               position
               task
-              startedAt: started_at(formatString: "YYYY.MM")
-              endedAt: ended_at(formatString: "YYYY.MM")
+              startedAt: started_at
+              endedAt: ended_at
               baseTech: base_tech
               techStack: tech_stack
             }
