@@ -1,15 +1,15 @@
 ---
 path: loan
 type: work-experience
-created-at: 2020-06-01T15:33:49.700Z
+created_at: 2020-06-01T15:33:49.700Z
 name: 대출 추천 서비스 개발
 company: 고위드 (브로콜리 - 개인 자산관리 앱)
 position: 혁신개발유닛 / 매니저
 task: 백엔드
-started-at: '2019.11'
-ended-at: '2020.02'
-base-tech: Node.js
-tech-stack: JavaScript,Node.js,Express,GraphQL,Mongoose,MongoDB,Adjust,Braze,Sentry
+started_at: 2019-10-31T15:00:00.000Z
+ended_at: 2020-01-31T15:00:00.000Z
+base_tech: Node.js
+tech_stack: JavaScript,Node.js,Express,GraphQL,Mongoose,MongoDB,Adjust,Braze,Sentry
 ---
 
 여러 금융기관의 대출 금리 및 한도를 한 번에 조회하고 신청하는 서비스<br/>

@@ -1,15 +1,15 @@
 ---
 path: oauth
 type: work-experience
-created-at: 2020-06-01T15:33:49.700Z
+created_at: 2020-06-01T15:33:49.700Z
 name: OAuth 2.0 인증 서비스 개발
 company: 고위드 (브로콜리 - 개인 자산관리 앱)
 position: 혁신개발유닛 / 매니저
 task: 백엔드
-started-at: '2019.10'
-ended-at: '2019.11'
-base-tech: Node.js
-tech-stack: JavaScript,Node.js,Express,Sequelize,ioredis,MySQL,Redis
+started_at: 2019-09-30T15:00:00.000Z
+ended_at: 2019-10-31T15:00:00.000Z
+base_tech: Node.js
+tech_stack: JavaScript,Node.js,Express,Sequelize,ioredis,MySQL,Redis
 ---
 
 OAuth 2.0 표준 프로토콜을 이용하여 사용자 인증을 제공하는 서비스<br/>

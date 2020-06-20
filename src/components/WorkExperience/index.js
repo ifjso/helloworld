@@ -10,8 +10,8 @@ const WorkExperience = () => {
   } = useStaticQuery(graphql`
     query GetWorkExperience {
       allMarkdownRemark(
-        filter: { fields: { type: { eq: "work-experience" } } }
-        sort: { fields: frontmatter___started_at, order: DESC }
+        filter: { frontmatter: { type: { eq: "work-experience" } } }
+        sort: { fields: [frontmatter___started_at], order: DESC }
       ) {
         edges {
           node {
@@ -22,8 +22,8 @@ const WorkExperience = () => {
               company
               position
               task
-              startedAt: started_at
-              endedAt: ended_at
+              startedAt: started_at(formatString: "YYYY.MM")
+              endedAt: ended_at(formatString: "YYYY.MM")
               baseTech: base_tech
               techStack: tech_stack
             }
@@ -51,8 +51,8 @@ const WorkExperience = () => {
       date: `${startedAt} ~ ${endedAt}`,
       tags: techStack.split(',').map((tech, i) => ({ id: i, name: tech })),
       title: name,
-      company: `🏢 ${company}`,
-      position: `💻 ${position} / ${task}`,
+      company: `🍀 ${company}`,
+      position: `🎯 ${position} / ${task}`,
       details: node.html
     };
   };

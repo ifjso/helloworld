@@ -8,7 +8,7 @@ const AboutMe = () => {
   const { markdownRemark: aboutMe } = useStaticQuery(
     graphql`
       query GetAboutMe {
-        markdownRemark(fields: { type: { eq: "about-me" } }) {
+        markdownRemark(frontmatter: { type: { eq: "about-me" } }) {
           html
           frontmatter {
             name

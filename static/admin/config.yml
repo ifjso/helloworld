@@ -20,10 +20,10 @@ collections:
           options: ['about-me', 'work-experience'],
           default: 'about-me',
         }
-      - { name: created-at, label: Created At, widget: datetime }
+      - { name: created_at, label: Created At, widget: datetime }
       - { name: name, label: Name }
       - { name: intro, label: Introduction }
-      - { name: tech-stack, label: Tech Stack }
+      - { name: tech_stack, label: Tech Stack }
       - { name: body, label: Body, widget: markdown }
 
   - name: work-experience
@@ -39,7 +39,7 @@ collections:
           options: ['about-me', 'work-experience'],
           default: 'work-experience',
         }
-      - { name: created-at, label: Created At, widget: datetime }
+      - { name: created_at, label: Created At, widget: datetime }
       - { name: name, label: Name }
       - { name: company, label: Company }
       - { name: position, label: Position }
@@ -50,14 +50,14 @@ collections:
           options: ['백엔드', '프론트엔드'],
           default: '백엔드',
         }
-      - { name: started-at, label: Started At, widget: date, format: 'YYYY.MM' }
-      - { name: ended-at, label: Ended At, widget: date, format: 'YYYY.MM' }
+      - { name: started_at, label: Started At, widget: date }
+      - { name: ended_at, label: Ended At, widget: date }
       - {
-          name: base-tech,
+          name: base_tech,
           label: Base Tech,
           widget: select,
           options: ['SpringBoot', 'Node.js', 'React'],
           default: 'SpringBoot',
         }
-      - { name: tech-stack, label: Tech Stack }
+      - { name: tech_stack, label: Tech Stack }
       - { name: body, label: Body, widget: markdown }
