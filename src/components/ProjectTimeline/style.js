@@ -27,7 +27,7 @@ export const Wrapper = styled.div`
 
   .content {
     --background-color: ${({ backgroundColor }) =>
-      backgroundColor || 'var(--jet)'};
+      backgroundColor || 'var(--timeline-element-background-color)'};
 
     .vertical-timeline-element-title {
       font-size: 1.5em;
