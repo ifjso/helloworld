@@ -52,7 +52,6 @@ collections:
         }
       - { name: started-at, label: Started At, widget: date, format: 'YYYY.MM' }
       - { name: ended-at, label: Ended At, widget: date, format: 'YYYY.MM' }
-      - { name: period, label: Period }
       - {
           name: base-tech,
           label: Base Tech,
