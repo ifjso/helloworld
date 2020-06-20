@@ -6,10 +6,11 @@ name: 관리자 콘솔 개발
 company: 고위드 (브로콜리 - 개인 자산관리 앱)
 position: 혁신개발유닛 / 매니저
 task: 백엔드
-started_at: '2017.06'
-ended_at: '2019.07'
+started_at: "2017.04"
+ended_at: "2019.07"
 base_tech: SpringBoot
-tech_stack: Java 8,JavaScript,Spring Boot,MyBatis,Maven,Atomikos,Amazon S3,MySQL,MongoDB,JSP
+tech_stack: Java 8,JavaScript,Spring Boot,MyBatis,Maven,Atomikos,Amazon
+  S3,MySQL,MongoDB,JSP
 ---
 
 브로콜리의 효율적인 운영을 위한 관리자 콘솔<br/>
