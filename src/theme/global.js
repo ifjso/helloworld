@@ -23,11 +23,13 @@ export const GlobalStyle = createGlobalStyle`
 
     &.light {
       --background-color: var(--white);
+      --timeline-element-background-color: var(--white-smoke);
       --color: var(--black);
     }
 
     &.dark {
       --background-color: var(--black-russian);
+      --timeline-element-background-color: var(--jet);
       --color: var(--light-gray);
     }
   }
