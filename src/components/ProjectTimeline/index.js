@@ -6,7 +6,7 @@ import {
 import 'react-vertical-timeline-component/style.min.css';
 import { Wrapper, TagList, Tag } from './style';
 
-const Timeline = ({ elements }) => (
+const ProjectTimeline = ({ elements }) => (
   <Wrapper>
     <VerticalTimeline>
       {elements &&
@@ -28,7 +28,10 @@ const Timeline = ({ elements }) => (
 
             <h3 className="vertical-timeline-element-title">{element.title}</h3>
             <h4 className="vertical-timeline-element-subtitle">
-              {element.subtitle}
+              {element.company}
+            </h4>
+            <h4 className="vertical-timeline-element-subtitle">
+              {element.position}
             </h4>
             <div dangerouslySetInnerHTML={{ __html: element.details }} />
           </VerticalTimelineElement>
@@ -37,4 +40,4 @@ const Timeline = ({ elements }) => (
   </Wrapper>
 );
 
-export default Timeline;
+export default ProjectTimeline;

@@ -1,6 +1,6 @@
 import React from 'react';
 import { useStaticQuery, graphql } from 'gatsby';
-import Timeline from '../Timeline';
+import ProjectTimeline from '../ProjectTimeline';
 import Logos from '../../assets/logos';
 import { Container, Title } from './style';
 
@@ -10,8 +10,8 @@ const WorkExperience = () => {
   } = useStaticQuery(graphql`
     query GetWorkExperience {
       allMarkdownRemark(
-        filter: { fields: { type: { eq: "work-experience" } } }
-        sort: { fields: frontmatter___started_at, order: DESC }
+        filter: { frontmatter: { type: { eq: "work-experience" } } }
+        sort: { fields: [frontmatter___started_at], order: DESC }
       ) {
         edges {
           node {
@@ -51,7 +51,8 @@ const WorkExperience = () => {
       date: `${startedAt} ~ ${endedAt}`,
       tags: techStack.split(',').map((tech, i) => ({ id: i, name: tech })),
       title: name,
-      subtitle: `${company} - ${position} / ${task}`,
+      company: `🍀 ${company}`,
+      position: `🎯 ${position} / ${task}`,
       details: node.html
     };
   };
@@ -61,7 +62,7 @@ const WorkExperience = () => {
   return (
     <Container>
       <Title>Work Experience</Title>
-      <Timeline elements={elements} />
+      <ProjectTimeline elements={elements} />
     </Container>
   );
 };

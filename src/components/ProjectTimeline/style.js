@@ -34,6 +34,11 @@ export const Wrapper = styled.div`
       margin-bottom: 8px;
     }
 
+    .vertical-timeline-element-subtitle {
+      margin: 0 0 0.25rem;
+      font-weight: var(--semi-bold);
+    }
+
     .vertical-timeline-element-content {
       background-color: var(--background-color);
       color: inherit;
