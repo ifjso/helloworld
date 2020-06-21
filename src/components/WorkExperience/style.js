@@ -1,7 +1,8 @@
 import styled from 'styled-components';
 
 export const Container = styled.section`
-  margin: 0 1rem;
+  padding: 0 1rem;
+  overflow-x: hidden;
 `;
 
 export const Title = styled.h1`

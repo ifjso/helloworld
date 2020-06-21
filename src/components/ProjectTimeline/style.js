@@ -1,11 +1,21 @@
 import styled from 'styled-components';
+import Devices from '../../utils/constants/devices';
 
 export const Wrapper = styled.div`
   .vertical-timeline {
     width: inherit;
-
     ::before {
       background-color: var(--dark-gray);
+
+      @media screen and (max-width: calc(${Devices.DESKTOP_WIDTH}px - 1px)) {
+        left: 22px;
+      }
+    }
+  }
+
+  .vertical-timeline-element-icon {
+    @media screen and (max-width: calc(${Devices.DESKTOP_WIDTH}px - 1px)) {
+      left: 4px;
     }
   }
 
@@ -43,6 +53,10 @@ export const Wrapper = styled.div`
       background-color: var(--background-color);
       color: inherit;
       box-shadow: none;
+
+      @media screen and (max-width: calc(${Devices.DESKTOP_WIDTH}px - 1px)) {
+        margin-left: 64px;
+      }
     }
 
     .vertical-timeline-element-content-arrow {
