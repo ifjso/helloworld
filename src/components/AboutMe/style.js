@@ -4,7 +4,7 @@ import { Media } from '../../theme/global';
 export const Container = styled.section`
   min-height: 100%;
   box-sizing: border-box;
-  margin: 0 1rem;
+  padding: 0 1rem;
   display: flex;
   justify-content: center;
   align-items: center;

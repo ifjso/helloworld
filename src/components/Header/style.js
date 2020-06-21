@@ -7,7 +7,6 @@ export const StyledHeader = styled.header`
   top: 0;
   width: 100%;
   background-color: var(--background-color);
-  transition: background-color 0.5s ease;
   z-index: 10;
 `;
 
