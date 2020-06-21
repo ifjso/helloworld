@@ -3,7 +3,7 @@ path: signup
 type: work-experience
 created_at: 2020-06-19T13:52:25.312Z
 name: 회원가입 기능 개선
-company: 고위드 (브로콜리 - 개인 자산관리 앱)
+company: 고위드 (브로콜리, 개인 자산관리 앱)
 position: 혁신개발유닛 / 매니저
 task: 백엔드
 started_at: '2019.05'
