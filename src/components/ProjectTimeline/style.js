@@ -66,6 +66,7 @@ export const Wrapper = styled.div`
     p {
       line-height: 1.4;
       font-weight: var(--light);
+      word-break: keep-all;
     }
   }
 `;
