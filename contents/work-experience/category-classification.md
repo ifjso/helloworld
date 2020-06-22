@@ -3,7 +3,7 @@ path: category-classification
 type: work-experience
 created_at: 2020-06-19T14:14:38.880Z
 name: 카드 소비 내역 업종 자동 분류 기능 개선
-company: 고위드 (브로콜리 - 개인 자산관리 앱)
+company: 고위드 (브로콜리 - 자산관리 앱)
 position: 혁신개발유닛 / 매니저
 task: 백엔드
 started_at: "2019.02"
