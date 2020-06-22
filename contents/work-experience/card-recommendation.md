@@ -3,7 +3,7 @@ path: card-recommendation
 type: work-experience
 created_at: 2020-06-19T14:25:57.289Z
 name: 카드 추천 서비스 개선
-company: 고위드 (브로콜리, 개인 자산관리 앱)
+company: 고위드 (브로콜리 - 자산관리 앱)
 position: 혁신개발유닛 / 매니저
 task: 백엔드
 started_at: "2018.03"
