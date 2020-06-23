@@ -31,6 +31,7 @@ export const Wrapper = styled.div`
     padding-bottom: 2rem;
     font-size: 1.8em;
     font-weight: var(--normal);
+    line-height: 1.2;
   }
 
   p {
