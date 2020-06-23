@@ -1,5 +1,6 @@
 import styled from 'styled-components';
 import { Media } from '../../theme/global';
+import Devices from '../../utils/constants/devices';
 
 export const Container = styled.section`
   min-height: 100%;
@@ -50,5 +51,8 @@ export const LogoWrapper = styled.div`
   & > * {
     margin-right: 0.6rem;
     margin-bottom: 0.8rem;
+  }
+
+  @media screen and (min-width: ${Devices.TABLET_WIDTH}px) {
   }
 `;

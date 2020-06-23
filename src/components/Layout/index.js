@@ -17,7 +17,7 @@ const Layout = ({ children }) => {
     query {
       site {
         siteMetadata {
-          title
+          home
         }
       }
     }
@@ -26,7 +26,7 @@ const Layout = ({ children }) => {
   return (
     <>
       <GlobalStyle />
-      <Header siteTitle={data.site.siteMetadata.title} />
+      <Header siteTitle={data.site.siteMetadata.home} />
       <Body>
         <main>{children}</main>
         <footer>
