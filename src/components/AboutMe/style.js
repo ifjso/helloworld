@@ -44,8 +44,10 @@ export const Wrapper = styled.div`
 `;
 
 export const LogoWrapper = styled.div`
-  display: flex;
-  flex-wrap: wrap;
+  display: grid;
+  justify-content: space-between;
+  grid-template-columns: repeat(auto-fill, 80px);
+  grid-gap: 0.4rem;
 
   & > * {
     margin-right: 0.6rem;

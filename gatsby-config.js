@@ -1,6 +1,7 @@
 module.exports = {
   siteMetadata: {
-    title: `JaeSeok's Hello, World!`,
+    title: `JaeSeok O - Backend Developer`,
+    home: 'jso',
     description: 'Let me introduce myself.',
     author: 'ojsboy@hotmail.com',
     github: 'https://github.com/ifjso'

@@ -37,6 +37,6 @@ export const StyledLink = styled(Link)`
   text-decoration: none;
 
   @media screen and (max-width: calc(${Devices.TABLET_WIDTH}px - 1px)) {
-    font-size: 0.6em;
+    font-size: 0.8em;
   }
 `;
