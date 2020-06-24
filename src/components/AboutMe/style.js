@@ -1,5 +1,6 @@
 import styled from 'styled-components';
 import { Media } from '../../theme/global';
+import Devices from '../../utils/constants/devices';
 
 export const Container = styled.section`
   min-height: 100%;
@@ -18,6 +19,7 @@ export const Wrapper = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: center;
+  word-break: keep-all;
 
   h1 {
     margin: 0;
@@ -40,6 +42,25 @@ export const Wrapper = styled.div`
     font-size: 1.3em;
     line-height: 1.8;
     list-style-type: none;
+  }
+
+  @media screen and (max-width: ${Devices.MOBILE_WIDTH_L}px) {
+    h1 {
+      font-size: 2.3em;
+      padding-bottom: 0.8rem;
+    }
+
+    h2 {
+      font-size: 1.5em;
+      line-height: 1.4;
+      padding-bottom: 1.6rem;
+    }
+
+    p {
+      font-size: 1.1em;
+      line-height: 1.6;
+      padding-bottom: 1.6rem;
+    }
   }
 `;
 
