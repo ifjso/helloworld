@@ -47,6 +47,10 @@ export const Wrapper = styled.div`
     .vertical-timeline-element-subtitle {
       margin: 0 0 0.25rem;
       font-weight: var(--semi-bold);
+
+      @media screen and (max-width: calc(${Devices.TABLET_WIDTH}px - 1px)) {
+        font-size: 0.95em;
+      }
     }
 
     .vertical-timeline-element-content {
