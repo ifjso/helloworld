@@ -83,7 +83,6 @@ export const Tag = styled.li`
   box-sizing: border-box;
   padding: 5px;
   margin: 0 8px 8px 0;
-  border: 2px solid var(--dark-gray);
   border-radius: 8px;
   background-color: var(--light-gray);
   font-size: 0.8em;
