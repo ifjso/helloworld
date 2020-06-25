@@ -19,6 +19,7 @@ const Layout = ({ children }) => {
       site {
         siteMetadata {
           home
+          footer
         }
       }
     }
@@ -30,7 +31,7 @@ const Layout = ({ children }) => {
       <Header siteTitle={data.site.siteMetadata.home} />
       <Body>
         <Main>{children}</Main>
-        <Footer>Copyright © 2020 jso All rights reserved.</Footer>
+        <Footer>{data.site.siteMetadata.footer}</Footer>
       </Body>
     </>
   );

@@ -47,6 +47,10 @@ export const Wrapper = styled.div`
     .vertical-timeline-element-subtitle {
       margin: 0 0 0.25rem;
       font-weight: var(--semi-bold);
+
+      @media screen and (max-width: calc(${Devices.TABLET_WIDTH}px - 1px)) {
+        font-size: 0.95em;
+      }
     }
 
     .vertical-timeline-element-content {
@@ -83,7 +87,6 @@ export const Tag = styled.li`
   box-sizing: border-box;
   padding: 5px;
   margin: 0 8px 8px 0;
-  border: 2px solid var(--dark-gray);
   border-radius: 8px;
   background-color: var(--light-gray);
   font-size: 0.8em;

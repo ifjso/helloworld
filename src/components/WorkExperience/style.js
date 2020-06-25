@@ -11,7 +11,7 @@ export const Title = styled.h1`
   text-align: center;
   font-size: 2.8em;
 
-  @media screen and (max-width: ${Devices.MOBILE_WIDTH_L}px) {
+  @media screen and (max-width: calc(${Devices.TABLET_WIDTH}px - 1px) ) {
     margin-bottom: 2.4rem;
     font-size: 2.3em;
   }

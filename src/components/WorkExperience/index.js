@@ -51,8 +51,8 @@ const WorkExperience = () => {
       date: `${startedAt} ~ ${endedAt}`,
       tags: techStack.split(',').map((tech, i) => ({ id: i, name: tech })),
       title: name,
-      company: `🍀 ${company}`,
-      position: `🎯 ${position} / ${task}`,
+      company: `📍 ${company}`,
+      position: `📍 ${position} / ${task}`,
       details: node.html
     };
   };
