@@ -44,7 +44,7 @@ export const Wrapper = styled.div`
     list-style-type: none;
   }
 
-  @media screen and (max-width: ${Devices.MOBILE_WIDTH_L}px) {
+  @media screen and (max-width: calc(${Devices.TABLET_WIDTH}px - 1px)) {
     h1 {
       font-size: 2.3em;
       padding-bottom: 0.8rem;
