@@ -9,7 +9,7 @@ task: 백엔드
 started_at: "2019.10"
 ended_at: "2019.11"
 base_tech: Node.js
-tech_stack: JavaScript,Node.js,Express,Sequelize,ioredis,MySQL,Redis
+tech_stack: JavaScript,Node.js,Express,Sequelize,ioredis,MySQL,Redis,Jenkins
 ---
 • OAuth 2.0 표준 프로토콜을 이용하여 사용자 인증을 제공하는 서비스<br/>
 • Authorization Code Grant Type 인증 방식을 사용<br/>
