@@ -9,7 +9,7 @@ task: 백엔드
 started_at: "2019.05"
 ended_at: "2019.06"
 base_tech: SpringBoot
-tech_stack: Java 8,Spring Boot,JUnit,MyBatis,Maven,MySQL,Redis
+tech_stack: Java 8,Spring Boot,JUnit,MyBatis,Maven,MySQL,Redis,Jenkins
 ---
 • 이메일/패스워드에서 PIN 인증 방식으로 회원가입 기능 개선<br/>
 • PIN 생성/인증/유무 조회, 로그인 REST API 개발<br/>
