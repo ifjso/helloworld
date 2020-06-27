@@ -9,7 +9,7 @@ task: 백엔드
 started_at: "2018.07"
 ended_at: "2018.08"
 base_tech: SpringBoot
-tech_stack: Java 8,Spring Boot,MyBatis,Maven,MySQL,MongoDB
+tech_stack: Java 8,Spring Boot,MyBatis,Maven,MySQL,MongoDB,Jenkins
 ---
 
 • 소비 패턴에 맞는 카드를 추천해 주는 서비스<br/>
