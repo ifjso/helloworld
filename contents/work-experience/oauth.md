@@ -14,4 +14,4 @@ tech_stack: JavaScript,Node.js,Express,Sequelize,ioredis,MySQL,Redis,Jenkins
 • OAuth 2.0 표준 프로토콜을 이용하여 사용자 인증을 제공하는 서비스<br/>
 • Authorization Code Grant Type 인증 방식을 사용<br/>
 • Redis에 자주 쓰는 데이터를 캐싱하여 안정적인 응답 속도 제공<br/>
-• 함수 비동기 처리
+• 함수 비동기 처리를 통해 자원 효율성 높임
