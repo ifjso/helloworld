@@ -9,7 +9,7 @@ task: 백엔드
 started_at: "2019.02"
 ended_at: "2019.04"
 base_tech: SpringBoot
-tech_stack: Java 8,Spring Boot,JUnit,MyBatis,Maven,MySQL,MongoDB
+tech_stack: Java 8,Spring Boot,JUnit,MyBatis,Maven,MySQL,MongoDB,Jenkins
 ---
 • 카드 지출을 외식, 쇼핑 등의 업종으로 자동 분류해 주는 기능<br/>
 • 분류율 85%에서 90%로 높임<br/>
