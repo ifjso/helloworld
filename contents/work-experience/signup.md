@@ -13,5 +13,4 @@ tech_stack: Java 8,Spring Boot,JUnit,MyBatis,Maven,MySQL,Redis,Jenkins
 ---
 • 이메일/패스워드에서 PIN 인증 방식으로 회원가입 기능 개선<br/>
 • PIN 생성/인증/유무 조회, 로그인 REST API 개발<br/>
-• 테스트 코드를 먼저 작성하고 구현 (TDD)<br/>
 • Redis에 자주 쓰는 데이터를 캐싱하여 안정적인 응답 속도 제공
