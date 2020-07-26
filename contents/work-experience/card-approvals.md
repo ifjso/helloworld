@@ -11,4 +11,4 @@ ended_at: "2019.10"
 base_tech: SpringBoot
 tech_stack: Java 8,Spring Boot,JUnit,MyBatis,Maven,React,Redux,Redux-Saga,MySQL,AWS,Jenkins
 ---
-• 카드별로 지출을 조회할 수 있도록 기능 개선<br/> • Java 8 Stream API를 사용하여 복잡한 데이터 연산<br/> • 테스트 코드를 먼저 작성하고 구현 (TDD)<br/> • React를 사용하여 카드 혜택 페이지 개발
+• 카드별로 지출을 조회할 수 있도록 기능 개선<br/> • Java 8 Stream API를 사용하여 복잡한 데이터 연산<br/> • 테스트 코드 작성<br/> • React를 사용하여 카드 혜택 페이지 개발
