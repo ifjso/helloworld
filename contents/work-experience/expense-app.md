@@ -15,4 +15,4 @@ tech_stack: JavaScript,React,GraphQL,HTML5,CSS3,AWS
 • 하이브리드 앱에 사용할 웹 개<br/>
 • GraphQL을 사용하여 서버와 통신<br/>
 • 브릿지를 이용하여 네이티브 앱과 연동<br/>
-• Github Actions를 사용하여 Amazon S3와 CloudFront에 자동 배
+• Github Actions를 사용하여 Amazon S3와 CloudFront에 자동 배포
