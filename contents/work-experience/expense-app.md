@@ -9,10 +9,10 @@ task: 프론트엔드
 started_at: "2020.08"
 ended_at: "2020.10"
 base_tech: React
-tech_stack: JavaScript,React,GraphQL,HTML5,CSS3,AWS
+tech_stack: JavaScript,React,GraphQL,HTML5,CSS3,Github Actions,AWS
 ---
 • 스타트업 지출 경비 관리 서비스 개발<br/>
-• 하이브리드 앱에 사용할 웹 개<br/>
+• 하이브리드 앱에 사용할 웹 개발<br/>
 • GraphQL을 사용하여 서버와 통신<br/>
 • 브릿지를 이용하여 네이티브 앱과 연동<br/>
 • Github Actions를 사용하여 Amazon S3와 CloudFront에 자동 배포
