@@ -13,6 +13,7 @@ import RedisLogo from '../../static/assets/redis-logo.svg';
 import SpringLogo from '../../static/assets/spring-logo.svg';
 import Html5Logo from '../../static/assets/html5-logo.svg';
 import Css3Logo from '../../static/assets/css3-logo.svg';
+import GithubActionsLogo from '../../static/assets/github-actions-logo.svg';
 
 export default Object.freeze({
   Java: JavaLogo,
@@ -29,5 +30,6 @@ export default Object.freeze({
   MongoDB: MongodbLogo,
   Redis: RedisLogo,
   Git: GitLogo,
-  Jenkins: JenkinsLogo
+  Jenkins: JenkinsLogo,
+  'Github Actions': GithubActionsLogo
 });
