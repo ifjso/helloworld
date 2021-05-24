@@ -33,5 +33,5 @@ export default Object.freeze({
   Git: GitLogo,
   Jenkins: JenkinsLogo,
   'Github Actions': GithubActionsLogo,
-  Aws: AwsLogo
+  AWS: AwsLogo
 });
