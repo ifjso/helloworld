@@ -2,7 +2,7 @@
 path: woowa-terms
 type: work-experience
 created_at: 2021-05-24T09:34:24.432Z
-name: 약관 서비스
+name: 약관 서비스 개발
 company: 우아한형제들
 position: 배민서비스개발팀 / 팀원
 task: 백엔드
