@@ -68,18 +68,13 @@ module.exports = {
     'gatsby-plugin-styled-components',
     'gatsby-plugin-dark-mode',
     {
-      resolve: 'gatsby-plugin-prefetch-google-fonts',
+      resolve: 'gatsby-plugin-google-fonts',
       options: {
         fonts: [
-          {
-            family: 'Roboto',
-            variants: ['300', '400', '500', '600', '700']
-          },
-          {
-            family: 'Open Sans',
-            variants: ['300', '400', '500', '600', '700']
-          }
-        ]
+          'Roboto\:300,400,500,600,700',
+          'Open Sans\:300,400,500,600,700'
+        ],
+        display: 'swap'
       }
     }
   ]
